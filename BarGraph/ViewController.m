@@ -7,6 +7,9 @@
 //
 
 #import "ViewController.h"
+#include <CoreGraphics/CGGeometry.h>
+#import "BarGraphView.h"
+#import "BarDrawer.h"
 
 @interface ViewController ()
 
@@ -14,14 +17,28 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad {
-    [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+- (void) loadView{
+    
+    BarDrawer * newView = [[BarDrawer alloc] init];
+    
+    NSLog(@"There are %lu items in sequence array",(unsigned long)self.nameList.count);
+    NSLog(@"There are %lu items in time array",(unsigned long)self.timeSpokenList.count);
+    
+    newView.timeSpokenList = self.timeSpokenList;
+    newView.nameList = self.nameList;
+    
+    self.view = newView;
 }
+
+- (void)viewDidLoad {
+
+    
+}
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+  
 }
 
 @end

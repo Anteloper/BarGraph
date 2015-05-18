@@ -7,6 +7,14 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FB4A0B351B06312D00E1D04D /* ClassCreatorViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A0B311B06312D00E1D04D /* ClassCreatorViewController.m */; };
+		FB4A0B361B06312D00E1D04D /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = FB4A0B331B06312D00E1D04D /* Student.m */; };
+		FB4A0B3D1B06316D00E1D04D /* table.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4A0B371B06316D00E1D04D /* table.jpg */; };
+		FB4A0B3E1B06316D00E1D04D /* Warsaw.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4A0B381B06316D00E1D04D /* Warsaw.jpg */; };
+		FB4A0B3F1B06316D00E1D04D /* Nilsson.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4A0B391B06316D00E1D04D /* Nilsson.jpg */; };
+		FB4A0B401B06316D00E1D04D /* Curtis.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4A0B3A1B06316D00E1D04D /* Curtis.jpg */; };
+		FB4A0B411B06316D00E1D04D /* Creagh.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4A0B3B1B06316D00E1D04D /* Creagh.jpg */; };
+		FB4A0B421B06316D00E1D04D /* Bakker.jpg in Resources */ = {isa = PBXBuildFile; fileRef = FB4A0B3C1B06316D00E1D04D /* Bakker.jpg */; };
 		FB68F8C51B00F93D00E8326E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68F8C41B00F93D00E8326E /* main.m */; };
 		FB68F8C81B00F93D00E8326E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68F8C71B00F93D00E8326E /* AppDelegate.m */; };
 		FB68F8CB1B00F93D00E8326E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68F8CA1B00F93D00E8326E /* ViewController.m */; };
@@ -14,6 +22,8 @@
 		FB68F8D01B00F93E00E8326E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FB68F8CF1B00F93E00E8326E /* Images.xcassets */; };
 		FB68F8D31B00F93E00E8326E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = FB68F8D11B00F93E00E8326E /* LaunchScreen.xib */; };
 		FB68F8DF1B00F93E00E8326E /* BarGraphTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68F8DE1B00F93E00E8326E /* BarGraphTests.m */; };
+		FB68F8E91B0196D600E8326E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FB68F8E81B0196D600E8326E /* CoreGraphics.framework */; };
+		FB68F8EF1B01B29100E8326E /* BarDrawer.m in Sources */ = {isa = PBXBuildFile; fileRef = FB68F8EE1B01B29100E8326E /* BarDrawer.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +37,16 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FB4A0B311B06312D00E1D04D /* ClassCreatorViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClassCreatorViewController.m; sourceTree = "<group>"; };
+		FB4A0B321B06312D00E1D04D /* ClassCreatorViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClassCreatorViewController.h; sourceTree = "<group>"; };
+		FB4A0B331B06312D00E1D04D /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		FB4A0B341B06312D00E1D04D /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		FB4A0B371B06316D00E1D04D /* table.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = table.jpg; sourceTree = "<group>"; };
+		FB4A0B381B06316D00E1D04D /* Warsaw.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Warsaw.jpg; sourceTree = "<group>"; };
+		FB4A0B391B06316D00E1D04D /* Nilsson.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Nilsson.jpg; sourceTree = "<group>"; };
+		FB4A0B3A1B06316D00E1D04D /* Curtis.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Curtis.jpg; sourceTree = "<group>"; };
+		FB4A0B3B1B06316D00E1D04D /* Creagh.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Creagh.jpg; sourceTree = "<group>"; };
+		FB4A0B3C1B06316D00E1D04D /* Bakker.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Bakker.jpg; sourceTree = "<group>"; };
 		FB68F8BF1B00F93D00E8326E /* BarGraph.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BarGraph.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB68F8C31B00F93D00E8326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB68F8C41B00F93D00E8326E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -40,6 +60,9 @@
 		FB68F8D81B00F93E00E8326E /* BarGraphTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarGraphTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB68F8DD1B00F93E00E8326E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FB68F8DE1B00F93E00E8326E /* BarGraphTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarGraphTests.m; sourceTree = "<group>"; };
+		FB68F8E81B0196D600E8326E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		FB68F8ED1B01B29100E8326E /* BarDrawer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarDrawer.h; sourceTree = "<group>"; };
+		FB68F8EE1B01B29100E8326E /* BarDrawer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarDrawer.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB68F8E91B0196D600E8326E /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -60,9 +84,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FB4A0B431B06317900E1D04D /* Pictures */ = {
+			isa = PBXGroup;
+			children = (
+				FB4A0B371B06316D00E1D04D /* table.jpg */,
+				FB4A0B381B06316D00E1D04D /* Warsaw.jpg */,
+				FB4A0B391B06316D00E1D04D /* Nilsson.jpg */,
+				FB4A0B3A1B06316D00E1D04D /* Curtis.jpg */,
+				FB4A0B3B1B06316D00E1D04D /* Creagh.jpg */,
+				FB4A0B3C1B06316D00E1D04D /* Bakker.jpg */,
+			);
+			name = Pictures;
+			sourceTree = "<group>";
+		};
 		FB68F8B61B00F93D00E8326E = {
 			isa = PBXGroup;
 			children = (
+				FB68F8E81B0196D600E8326E /* CoreGraphics.framework */,
 				FB68F8C11B00F93D00E8326E /* BarGraph */,
 				FB68F8DB1B00F93E00E8326E /* BarGraphTests */,
 				FB68F8C01B00F93D00E8326E /* Products */,
@@ -85,6 +123,13 @@
 				FB68F8C71B00F93D00E8326E /* AppDelegate.m */,
 				FB68F8C91B00F93D00E8326E /* ViewController.h */,
 				FB68F8CA1B00F93D00E8326E /* ViewController.m */,
+				FB4A0B311B06312D00E1D04D /* ClassCreatorViewController.m */,
+				FB4A0B321B06312D00E1D04D /* ClassCreatorViewController.h */,
+				FB4A0B331B06312D00E1D04D /* Student.m */,
+				FB4A0B341B06312D00E1D04D /* Student.h */,
+				FB4A0B431B06317900E1D04D /* Pictures */,
+				FB68F8ED1B01B29100E8326E /* BarDrawer.h */,
+				FB68F8EE1B01B29100E8326E /* BarDrawer.m */,
 				FB68F8CC1B00F93E00E8326E /* Main.storyboard */,
 				FB68F8CF1B00F93E00E8326E /* Images.xcassets */,
 				FB68F8D11B00F93E00E8326E /* LaunchScreen.xib */,
@@ -199,9 +244,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB4A0B3D1B06316D00E1D04D /* table.jpg in Resources */,
+				FB4A0B401B06316D00E1D04D /* Curtis.jpg in Resources */,
+				FB4A0B3E1B06316D00E1D04D /* Warsaw.jpg in Resources */,
+				FB4A0B411B06316D00E1D04D /* Creagh.jpg in Resources */,
 				FB68F8CE1B00F93E00E8326E /* Main.storyboard in Resources */,
 				FB68F8D31B00F93E00E8326E /* LaunchScreen.xib in Resources */,
+				FB4A0B3F1B06316D00E1D04D /* Nilsson.jpg in Resources */,
 				FB68F8D01B00F93E00E8326E /* Images.xcassets in Resources */,
+				FB4A0B421B06316D00E1D04D /* Bakker.jpg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -219,9 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB68F8EF1B01B29100E8326E /* BarDrawer.m in Sources */,
 				FB68F8CB1B00F93D00E8326E /* ViewController.m in Sources */,
 				FB68F8C81B00F93D00E8326E /* AppDelegate.m in Sources */,
+				FB4A0B361B06312D00E1D04D /* Student.m in Sources */,
 				FB68F8C51B00F93D00E8326E /* main.m in Sources */,
+				FB4A0B351B06312D00E1D04D /* ClassCreatorViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -352,6 +406,7 @@
 				INFOPLIST_FILE = BarGraph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Debug;
 		};
@@ -362,6 +417,7 @@
 				INFOPLIST_FILE = BarGraph/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
 			};
 			name = Release;
 		};
@@ -418,6 +474,7 @@
 				FB68F8E41B00F93E00E8326E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FB68F8E51B00F93E00E8326E /* Build configuration list for PBXNativeTarget "BarGraphTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +483,7 @@
 				FB68F8E71B00F93E00E8326E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

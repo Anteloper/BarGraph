@@ -10,6 +10,8 @@
 
 @interface ViewController : UIViewController
 
-
+    @property (nonatomic,strong) NSArray *timeSpokenList;
+    @property (nonatomic,strong) NSArray *nameList;
+    
 @end
 
